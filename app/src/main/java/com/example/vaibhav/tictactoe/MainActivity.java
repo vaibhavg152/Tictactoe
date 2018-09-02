@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a11.setText("x");
                 else a11.setText("o");
                 flag=!flag;
-                //a11.setEnabled(false);
+                a11.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a11.getText()==a12.getText()&&a11.getText()==a13.getText())||
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a12.setText("x");
                 else a12.setText("o");
                 flag=!flag;
-                //a12.setEnabled(false);
+                a12.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a11.getText()==a12.getText()&&a11.getText()==a13.getText())||
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a13.setText("x");
                 else a13.setText("o");
                 flag=!flag;
-                //a13.setEnabled(false);
+                a13.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a11.getText()==a12.getText()&&a11.getText()==a13.getText())||
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a21.setText("x");
                 else a21.setText("o");
                 flag=!flag;
-                //a21.setEnabled(false);
+                a21.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a21.getText()==a22.getText()&&a21.getText()==a23.getText())||
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a22.setText("x");
                 else a22.setText("o");
                 flag=!flag;
-                //a22.setEnabled(false);
+                a22.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a11.getText()==a22.getText()&&a11.getText()==a33.getText())||
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a23.setText("x");
                 else a23.setText("o");
                 flag=!flag;
-                //a23.setEnabled(false);
+                a23.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a23.getText()==a22.getText()&&a23.getText()==a21.getText())||
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a31.setText("x");
                 else a31.setText("o");
                 flag=!flag;
-                //a31.setEnabled(false);
+                a31.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a31.getText()==a32.getText()&&a31.getText()==a33.getText())||
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                 if(flag) a32.setText("x");
                 else a32.setText("o");
                 flag=!flag;
-                //a32.setEnabled(false);
+                a32.setEnabled(false);
                 if(flag) Result.setText("Player x move");
                 else Result.setText("Player o move");
                 if((a32.getText()==a12.getText()&&a32.getText()==a22.getText())||
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                     Result.setText("Player x move");
                 }
                 flag=!flag;
-                //a33.setEnabled(false);
+                a33.setEnabled(false);
                 if((a31.getText()==a32.getText()&&a31.getText()==a33.getText())||
                         (a13.getText()==a23.getText()&&a13.getText()==a33.getText())||
                         (a11.getText()==a22.getText()&&a11.getText()==a33.getText()))
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void game_over() {
         Result.setText("Shubham wins!\n" +
-                " You pathetic fucker!\n" +
+                " You pathetic loser!\n" +
                 " You lost again!\n");
         a11.setText("");
         a12.setText("");
